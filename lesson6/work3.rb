@@ -1,7 +1,7 @@
-print "Enter x: "
-x = gets.to_i
-
-print "Enter string: "
-s = gets.chomp
-
-x.times {puts "#{s}"}
+10.times do |x|
+	print "Hello"
+	x.times do
+		print "!"
+	end
+	puts
+end
