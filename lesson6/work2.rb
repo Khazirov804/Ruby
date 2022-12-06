@@ -1,7 +1,8 @@
-print "Enter x: "
-x = gets.to_i
+x = 0
 
-print "Enter string: "
-s = gets.to_s
-
-puts s.to_s * x.to_i
+2.times do
+	500.times do
+		print x = x + 1
+		sleep 0.03
+	end
+end
